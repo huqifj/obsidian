@@ -1,0 +1,10 @@
+{
+  "vimMode": true,
+  "showLineNumber": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "./assets/Git",
+  "useMarkdownLinks": true,
+  "autoPairMarkdown": false
+}

@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "2afbef9436cd30ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c09909806c492b4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Git.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a6e39047f4efce13",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e3d39de832d7b77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c624477189e22651",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6cad2b8479434c00",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "git",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0af1d960159a2e6c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 393.5
+  },
+  "right": {
+    "id": "3ca1d10d87cd55dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b03d22dd809de45b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48e6f4cc1fa900a5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1fa24dc298c81aa5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7376819ff3b54b46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "522aeaa16778bf88",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5
+  },
+  "active": "0c09909806c492b4",
+  "lastOpenFiles": [
+    "Git Submodule.md",
+    "Git.md",
+    "一种成功的Git分支模式.md",
+    "固件发布.md",
+    "运维平台汽车桩通信协议.md",
+    "GCC.md",
+    "Linux tar 命令用法整理/Untitled Database 629f80e6a6c7439fb9a646a91e630df9.csv.md",
+    "GitLab.md",
+    "N32G资料下载.md",
+    "Map 文件分析.md"
+  ]
+}
