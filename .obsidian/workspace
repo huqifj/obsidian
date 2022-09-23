@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0c09909806c492b4",
+        "id": "a2e93bc02ab6b6c6",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "4g",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -128,17 +128,17 @@
     "direction": "horizontal",
     "width": 334.5
   },
-  "active": "0c09909806c492b4",
+  "active": "a2e93bc02ab6b6c6",
   "lastOpenFiles": [
-    "Git Submodule.md",
-    "Git.md",
+    "游标卡尺读数.md",
     "一种成功的Git分支模式.md",
+    "右左原则——解析 C 语言声明.md",
+    "正则.md",
     "固件发布.md",
-    "运维平台汽车桩通信协议.md",
-    "GCC.md",
-    "Linux tar 命令用法整理/Untitled Database 629f80e6a6c7439fb9a646a91e630df9.csv.md",
-    "GitLab.md",
-    "N32G资料下载.md",
-    "Map 文件分析.md"
+    "4G 移动通信.md",
+    "RT-Thread SAL-AT.md",
+    "Ubuntu 版本查看命令.md",
+    "Qt 布局.md",
+    "VMware.md"
   ]
 }
