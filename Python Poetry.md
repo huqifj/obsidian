@@ -1,6 +1,6 @@
 # Python Poetry
 
-## 安装（Windows）
+## 安装
 
 [参考链接](https://python-poetry.org/docs/master/#installing-with-the-official-installer)
 
@@ -27,25 +27,11 @@ poetry.exe 路径为 C:\Users\huqf\AppData\Roaming\Python\Scripts
 
 ## 使用
 
-### 指定虚拟环境路径
-
-在 Windows 中，poetry 创建的虚拟环境默认路径是 **{cache-dir}\virtualenvs**。使用以下命令可以配置为在当前目录下创建虚拟环境：
-
-```powershell
-poetry config virtualenvs.in-project true --local
-```
-
-其中 `--local` 关键字说明此设置只对本目录有效。
-
-### 查看所有配置项
-
-`poetry config --list`
-
 ### 初始化
 
-命令：`poetry new poetry-demo`
+命令：`poetry new poetry-demo`，执行后将创建 poetry-demo 文件夹。
 
-查看目录树：tree /f /a
+查看目录树：`tree /f /a`
 
 ```powershell
 PS C:\Users\chuan\Documents\hci_cpa> tree /f /a
@@ -64,6 +50,21 @@ C:.
             __init__.py
 ```
 
+### 指定虚拟环境路径
+
+在 Windows 中，poetry 创建的虚拟环境默认路径是 **{cache-dir}\virtualenvs**。使用以下命令可以配置为在 **当前目录** 下创建虚拟环境：
+
+```powershell
+cd poetry-demo
+poetry config virtualenvs.in-project true --local
+```
+
+其中 `--local` 关键字说明此设置只对本目录有效。
+
+### 查看所有配置项
+
+`poetry config --list`
+
 ### 指定依赖版本
 
 ```python
@@ -71,6 +72,13 @@ C:.
 python = ">=3.10, <3.11"
 pendulum = "^2.1.2"
 PySide6 = "^6.3.1"
+```
+
+### 初始化 ENV
+
+以下命令将会创建 python 虚拟环境：
+```powershell
+poetry install
 ```
 
 ### 添加并安装依赖
@@ -137,9 +145,9 @@ PS C:\Windows\system32> Set-ExecutionPolicy RemoteSigned
 ```
 
 Policy 的有效参数:
--- Restricted: 不载入任何配置文件，不运行任何脚本。 "Restricted" 是默认的。
--- AllSigned: 只有被 Trusted publisher 签名的脚本或者配置文件才能使用，包括你自己再本地写的脚本。
--- RemoteSigned: 对于从 Internet 上下载的脚本或者配置文件，只有被 Trusted，publisher 签名的才能使用。
--- Unrestricted: 可以载入所有配置文件，可以运行所有脚本文件。如果你运行一个从 internet 下载并且没有签名的脚本，在运行之前，你会被提示需要一定的权限。
--- Bypass: 所有东西都可以使用，并且没有提示和警告。
--- Undefined: 删除当前 scope 被赋予的 ExecutionPolicy，但是 Group Policy scope 的 Execution Policy 不会被删除。
+- Restricted: 不载入任何配置文件，不运行任何脚本。 "Restricted" 是默认的。
+- AllSigned: 只有被 Trusted publisher 签名的脚本或者配置文件才能使用，包括你自己再本地写的脚本。
+- RemoteSigned: 对于从 Internet 上下载的脚本或者配置文件，只有被 Trusted，publisher 签名的才能使用。
+- Unrestricted: 可以载入所有配置文件，可以运行所有脚本文件。如果你运行一个从 internet 下载并且没有签名的脚本，在运行之前，你会被提示需要一定的权限。
+- Bypass: 所有东西都可以使用，并且没有提示和警告。
+- Undefined: 删除当前 scope 被赋予的 ExecutionPolicy，但是 Group Policy scope 的 Execution Policy 不会被删除。
