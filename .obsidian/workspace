@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Git.md",
+            "file": "Python Poetry.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "Python Poetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git.md",
+                "file": "Python Poetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git.md"
+                "file": "Python Poetry.md"
               }
             }
           }
@@ -131,14 +131,14 @@
   "active": "a2e93bc02ab6b6c6",
   "lastOpenFiles": [
     "游标卡尺读数.md",
-    "一种成功的Git分支模式.md",
-    "右左原则——解析 C 语言声明.md",
-    "正则.md",
-    "固件发布.md",
-    "4G 移动通信.md",
-    "RT-Thread SAL-AT.md",
-    "Ubuntu 版本查看命令.md",
-    "Qt 布局.md",
-    "VMware.md"
+    "Python Poetry.md",
+    "GCC.md",
+    "Linux tar 命令用法整理.md",
+    "GitLab.md",
+    "Gitlab API.md",
+    "Git Submodule.md",
+    "Git Stash.md",
+    "Git.md",
+    "一种成功的Git分支模式.md"
   ]
 }

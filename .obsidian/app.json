@@ -4,7 +4,7 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "shortest",
-  "attachmentFolderPath": "./assets/Git",
+  "attachmentFolderPath": "./assets/Python Poetry",
   "useMarkdownLinks": true,
   "autoPairMarkdown": false
 }

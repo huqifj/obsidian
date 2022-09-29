@@ -1,47 +1,41 @@
 # Python Poetry
 
-## 在 Windows 下安装
+## 安装（Windows）
 
-### 新方式
+[参考链接](https://python-poetry.org/docs/master/#installing-with-the-official-installer)
 
-[https://python-poetry.org/docs/master/#installing-with-the-official-installer](https://python-poetry.org/docs/master/#installing-with-the-official-installer)
+PowerShell 命令：
 
-PowerShell
-
-`(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py - --version 1.2.0b2`
+```powershell
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py - --version 1.2.0b2
+```
 
 以上命令将会：
 
 1. 使用 `venv` 创建虚拟环境（%APPDATA%\\pypoetry）
 2. 在上述虚拟环境安装最新版本或指定版本的 Poetry
-3. 在 Python 用户目录（'C:\\Users\\chuan\\AppData\\Roaming\\Python’）安装 poetry 脚本
+3. 在 Python 用户目录（`C:\\Users\\chuan\\AppData\\Roaming\\Python`）安装 poetry 脚本
 
 poetry.exe 路径为 C:\Users\huqf\AppData\Roaming\Python\Scripts
 
-### 旧方式（不推荐）
-
-- 方式一：
-    
-    PowerShell 指令：
-    
-    ```powershell
-    (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
-    ```
-    
-- 方式二
-    1. 下载 [https://github.com/python-poetry/poetry/blob/1.1.13/get-poetry.py](https://github.com/python-poetry/poetry/blob/1.1.13/get-poetry.py) 脚本。
-    2. 下载 [https://github.com/python-poetry/poetry/releases/download/1.1.13/poetry-1.1.13-win32.tar.gz](https://github.com/python-poetry/poetry/releases/download/1.1.13/poetry-1.1.13-win32.tar.gz) 文件。
-    3. 执行指令：`python .\[get-poetry.py](http://get-poetry.py/) --file ..\poetry-1.1.13-win32.tar.gz`
-
 ## 卸载
 
-在安装脚本添加后缀 `--uninstall` 即可。
+在安装脚本添加后缀 `--uninstall` 即可:
+```powershell
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py - --version 1.2.0b2 --uninstall
+```
 
 ## 使用
 
 ### 指定虚拟环境路径
 
-在 Windows 中，poetry 创建的虚拟环境默认路径是 {cache-dir}\virtualenvs。使用以下命令可以配置为在当前目录下创建虚拟环境：`poetry config virtualenvs.in-project true --local`。
+在 Windows 中，poetry 创建的虚拟环境默认路径是 **{cache-dir}\virtualenvs**。使用以下命令可以配置为在当前目录下创建虚拟环境：
+
+```powershell
+poetry config virtualenvs.in-project true --local
+```
+
+其中 `--local` 关键字说明此设置只对本目录有效。
 
 ### 查看所有配置项
 
@@ -54,14 +48,6 @@ poetry.exe 路径为 C:\Users\huqf\AppData\Roaming\Python\Scripts
 查看目录树：tree /f /a
 
 ```powershell
-PS C:\Users\chuan\Documents\hci_cpa> tree /? /a
-以图形显示驱动器或路径的文件夹结构。
-
-TREE [drive:][path] [/F] [/A]
-
-   /F   显示每个文件夹中文件的名称。
-   /A   使用 ASCII 字符，而不使用扩展字符。
-
 PS C:\Users\chuan\Documents\hci_cpa> tree /f /a
 文件夹 PATH 列表
 卷序列号为 3E99-2EE4
@@ -150,7 +136,7 @@ PS C:\Windows\system32> Set-ExecutionPolicy RemoteSigned
 [Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”): Y
 ```
 
-Policy 的有效参数: 
+Policy 的有效参数:
 -- Restricted: 不载入任何配置文件，不运行任何脚本。 "Restricted" 是默认的。
 -- AllSigned: 只有被 Trusted publisher 签名的脚本或者配置文件才能使用，包括你自己再本地写的脚本。
 -- RemoteSigned: 对于从 Internet 上下载的脚本或者配置文件，只有被 Trusted，publisher 签名的才能使用。
