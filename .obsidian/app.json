@@ -4,7 +4,7 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "shortest",
-  "attachmentFolderPath": "./assets/Modbus",
+  "attachmentFolderPath": "./assets/捷顺协议交互实例",
   "useMarkdownLinks": true,
   "autoPairMarkdown": false
 }
