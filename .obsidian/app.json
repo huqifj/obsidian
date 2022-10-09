@@ -4,7 +4,7 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "shortest",
-  "attachmentFolderPath": "./assets/捷顺协议交互实例",
+  "attachmentFolderPath": "./assets/Python 模块和包",
   "useMarkdownLinks": true,
   "autoPairMarkdown": false
 }

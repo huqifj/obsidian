@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "捷顺协议交互实例.md",
+            "file": "Python 模块和包.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "捷顺协议交互实例.md",
+                "file": "Python 模块和包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "捷顺协议交互实例.md",
+                "file": "Python 模块和包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "捷顺协议交互实例.md"
+                "file": "Python 模块和包.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "a2e93bc02ab6b6c6",
   "lastOpenFiles": [
+    "pytest.md",
+    "Python 装饰器.md",
+    "捷顺协议交互实例.md",
     "一种成功的Git分支模式.md",
     "运维平台汽车桩通信协议.md",
     "Modbus.md",
     "TTL vs RS232 vs RS485.md",
-    "Python 装饰器.md",
     "Python Poetry.md",
     "游标卡尺读数.md",
-    "GCC.md",
-    "Linux tar 命令用法整理.md",
-    "GitLab.md"
+    "GCC.md"
   ]
 }
