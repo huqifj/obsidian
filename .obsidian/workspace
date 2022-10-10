@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Python 模块和包.md",
+            "file": "慧驰升级流程.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5,
-    "collapsed": true
+    "width": 393.5
   },
   "right": {
     "id": "3ca1d10d87cd55dd",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python 模块和包.md",
+                "file": "慧驰升级流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python 模块和包.md",
+                "file": "慧驰升级流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python 模块和包.md"
+                "file": "慧驰升级流程.md"
               }
             }
           }
@@ -132,15 +131,15 @@
   },
   "active": "a2e93bc02ab6b6c6",
   "lastOpenFiles": [
-    "pytest.md",
-    "Python 装饰器.md",
-    "捷顺协议交互实例.md",
-    "一种成功的Git分支模式.md",
     "运维平台汽车桩通信协议.md",
-    "Modbus.md",
-    "TTL vs RS232 vs RS485.md",
-    "Python Poetry.md",
-    "游标卡尺读数.md",
-    "GCC.md"
+    "慧驰升级流程.md",
+    "捷顺协议交互实例.md",
+    "网页收藏.md",
+    "一种成功的Git分支模式.md",
+    "4G 移动通信.md",
+    "_INTSIZEOF(n).md",
+    "右左原则——解析 C 语言声明.md",
+    "BLE.md",
+    "游标卡尺读数.md"
   ]
 }
