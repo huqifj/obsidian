@@ -197,3 +197,72 @@ $ python fibo.py 50
 ```
 
 ## 包（Package）
+包使用「点式模块名」来结构化模块。例如，模块名 `A.B` 指示子模块 `B` 在包 `A` 中。这样的方式可以避免命名空间冲突。
+
+假设你想设计一个模块集（包）来同意处理音频文件和音频数据。需要考虑**格式、音效、过滤器**。下面是一种可能的目录结构：
+```
+sound/                          Top-level package
+      __init__.py               Initialize the sound package
+      formats/                  Subpackage for file format conversions
+              __init__.py
+              wavread.py
+              wavwrite.py
+              aiffread.py
+              aiffwrite.py
+              auread.py
+              auwrite.py
+              ...
+      effects/                  Subpackage for sound effects
+              __init__.py
+              echo.py
+              surround.py
+              reverse.py
+              ...
+      filters/                  Subpackage for filters
+              __init__.py
+              equalizer.py
+              vocoder.py
+              karaoke.py
+              ...
+```
+
+每当引入这个包，Python 将在 `sys.path` 中搜索包目录，一次来查找子目录。
+
+目录中必须有 `__init__.py` 文件，Python 才会将其视为一个包，这种规定避免 Python 将普通的文件名视为包，而屏蔽掉包搜索路径中后续的包。最简情况下，`__init__.py` 可以为空文件，但它也可以用来执行包初始化或设置 `__all__` 变量，这将在后续讨论。
+
+可以引用包中独立的模块：
+```python
+import sound.effects.echo
+```
+使用这种方式，必须以全名调用：
+```python
+sound.effects.echo.echofilter(input, output, delay=0.7, atten=4)
+```
+
+另一种引用方案：
+```python
+from sound.effects import echo
+```
+使用这种方式，则不必使用模块前缀，可以这样调用：
+```python
+echo.echofilter(input, output, delay=0.7, atten=4)
+```
+
+直接引用函数或变量：
+```python
+from sound.effects.echo import echofilter
+```
+调用：
+```python
+echofilter(input, output, delay=0.7, atten=4)
+```
+
+使用 `from package import item` 方式时，`item` 可以是包的子模块，或在包中定义的函数、类、变量。`import` 语句按以下顺序进行判定：
+1. 查看其是否在包中已定义
+2. 将其视为一个模块并且尝试去加载
+3. 如果以上两项都不成立，则抛出 `ImportError` 异常。
+
+相反的，使用 `import item.subitem.subsubitem` 形式时，除了最后一项，其他项必须是一个包，最后一项可以是模块或包，但是不能是一个类、函数或变量。
+
+### import *
+
