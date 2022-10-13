@@ -3,5 +3,6 @@
   "theme": "moonstone",
   "monospaceFontFamily": "Hack NF",
   "translucency": false,
-  "textFontFamily": "Hack NF,宋体"
+  "textFontFamily": "Hack NF,宋体",
+  "accentColor": ""
 }

@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "2afbef9436cd30ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "5802bb321c241811",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2e93bc02ab6b6c6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/南宁地铁开竣工节点示意图.excalidraw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a6e39047f4efce13",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e3d39de832d7b77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c624477189e22651",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6cad2b8479434c00",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0af1d960159a2e6c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 358,
+    "collapsed": true
+  },
+  "right": {
+    "id": "3ca1d10d87cd55dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b03d22dd809de45b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48e6f4cc1fa900a5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/南宁地铁开竣工节点示意图.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1fa24dc298c81aa5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/南宁地铁开竣工节点示意图.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7376819ff3b54b46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "522aeaa16778bf88",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/南宁地铁开竣工节点示意图.excalidraw.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "a2e93bc02ab6b6c6",
+  "lastOpenFiles": [
+    "正则.md",
+    "捷顺协议交互实例.md",
+    "慧驰升级流程.md",
+    "运维平台汽车桩通信协议.md",
+    "网页收藏.md",
+    "一种成功的Git分支模式.md",
+    "4G 移动通信.md",
+    "_INTSIZEOF(n).md",
+    "右左原则——解析 C 语言声明.md",
+    "BLE.md"
+  ]
+}
