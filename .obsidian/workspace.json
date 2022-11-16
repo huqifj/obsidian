@@ -4,20 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "5802bb321c241811",
+        "id": "56d7e7391a01bc00",
         "type": "tabs",
         "children": [
           {
-            "id": "a2e93bc02ab6b6c6",
+            "id": "84d3624daabdf2f6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/南宁地铁开竣工节点示意图.excalidraw.md"
+                "file": "运维平台汽车桩通信协议.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "546edb345a3860ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/南宁地铁开竣工节点示意图.excalidraw.md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/南宁地铁开竣工节点示意图.excalidraw.md",
+                "file": "Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,8 +139,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/南宁地铁开竣工节点示意图.excalidraw.md"
+                "file": "Git.md"
               }
+            }
+          },
+          {
+            "id": "3483e6460d5f77d6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
@@ -133,23 +156,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
-    "collapsed": true
+    "width": 355.5
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "a2e93bc02ab6b6c6",
+  "active": "546edb345a3860ed",
   "lastOpenFiles": [
-    "正则.md",
-    "捷顺协议交互实例.md",
-    "慧驰升级流程.md",
-    "运维平台汽车桩通信协议.md",
-    "网页收藏.md",
-    "一种成功的Git分支模式.md",
-    "4G 移动通信.md",
-    "_INTSIZEOF(n).md",
-    "右左原则——解析 C 语言声明.md",
-    "BLE.md"
+    "Excalidraw/Drawing 2022-11-16 09.56.03.excalidraw.md",
+    "HTTP.md",
+    "Untitled.md",
+    "assets/HTTP/image-20221111161718.png",
+    "Git.md",
+    "Git Submodule.md",
+    "Git Stash.md",
+    "GitLab.md",
+    "阿里云物联网平台/慧驰充电桩与运维平台通信协议.md",
+    "阿里云物联网平台/assets/慧驰充电桩与运维平台通信协议/image-20221024101427.png"
   ]
 }
